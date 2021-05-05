@@ -7,6 +7,7 @@
 <!-- /head_inclusion -->
 
 <body>
+
     <div id="app" class="wrapper">
 
         <!-- header_inclusion -->
@@ -21,10 +22,11 @@
         <?php include __DIR__ . '/partials/template/footer.php'; ?>
         <!-- /footer_inclusion -->
 
-        <!-- script.js -->
-        <script src="js/script.js" charset="utf-8"></script>
-        <!-- /script.js -->
-
     </div>
+
+    <!-- script.js -->
+    <script src="js/script.js" charset="utf-8"></script>
+    <!-- /script.js -->
+
 </body>
 </html>
