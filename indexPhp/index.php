@@ -10,7 +10,7 @@
 <!-- /head_inclusion -->
 
 <body>
-<div id="app" class="wrapper">
+  <div id="app" class="wrapper">
 
     <!-- header_inclusion -->
     <?php include __DIR__ . '/partials/template/header.php'; ?>
