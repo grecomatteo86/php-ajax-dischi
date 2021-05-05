@@ -1,10 +1,7 @@
 <?php
 
-    // database_inclusion
     include __DIR__ . '/database.php';
-    // database_inclusion
-    // var_dump($database);
-    
+      
 ?>
 
 <!DOCTYPE html>
