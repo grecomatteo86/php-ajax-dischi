@@ -13,6 +13,6 @@
       <option value="jazz">Jazz</option>
       <option value="metal">Metal</option>
     </select>
-    <button v-on:click="filter_genres" >Cerca!</button>
+    <button v-on:click="filter_genres">Cerca!</button>
   </div>
 </header>
