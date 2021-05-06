@@ -1,5 +1,5 @@
 <main class="main_section">
-    <div v-for="(item,index) in database" class="cd_container">
+    <div v-for="(item,index) in albums" class="cd_container">
         <!-- poster -->
         <div class="poster_container pdd_btm">
             <img :src="item.poster" :alt="`${item.title}_poster`">

@@ -3,7 +3,8 @@
         <div class="cd_container">
             <!-- poster -->
             <div class="poster_container pdd_btm">
-                <img src="<?= $val["poster"] ?>" alt="">
+                <!-- <img src="<?= $val["poster"] ?>" alt=""> -->
+                <img src="<?php echo $val["poster"] ?>" alt="">
             </div>
             <!-- /poster -->
             <!-- title -->

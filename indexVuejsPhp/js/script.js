@@ -1,13 +1,14 @@
 var app = new Vue ({
   el:"#app",
   data:{
-    database:[]
+    albums:[],
+    selected:""
   },
   mounted:function(){
     axios.get('http://localhost:8888/php-ajax-dischi/indexVuejsPhp/api.php')
     .then( (response) => {
       // console.log(response.data);
-      this.database = response.data;
+      this.albums = response.data;
     });
   }
 });
