@@ -12,7 +12,6 @@ var app = new Vue ({
         }
       })
       .then( (response) => {
-        // console.log(response.data);
         this.albums = response.data;
       });
     }
@@ -20,7 +19,6 @@ var app = new Vue ({
   mounted:function(){
     axios.get('http://localhost:8888/php-ajax-dischi/indexVuejsPhp/api.php')
     .then( (response) => {
-      // console.log(response.data);
       this.albums = response.data;
     });
   }
